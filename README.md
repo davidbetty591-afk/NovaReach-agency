@@ -1,1 +1,161 @@
-# NovaReach-agency
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaReach Agency</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:black;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.logo span{
+color:orange;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:white;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero span{
+color:orange;
+}
+
+.btn{
+margin-top:20px;
+padding:15px 30px;
+background:orange;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+}
+
+.services{
+padding:80px 40px;
+background:#111827;
+text-align:center;
+}
+
+.service-box{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:#1f2937;
+padding:30px;
+border-radius:10px;
+width:250px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:black;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+Nova<span>Reach</span>
+</div>
+
+<nav>
+<a href="#">Accueil</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Nous transformons votre présence digitale en <span>machine à clients</span></h1>
+
+<p>Agence de marketing digital spécialisée pour les PME africaines.</p>
+
+<button class="btn">Demander un audit gratuit</button>
+
+</section>
+
+<section class="services">
+
+<h2>Nos Services</h2>
+
+<div class="service-box">
+
+<div class="card">
+<h3>Publicité Facebook / Instagram</h3>
+<p>Générez des clients grâce aux campagnes publicitaires optimisées.</p>
+</div>
+
+<div class="card">
+<h3>Gestion réseaux sociaux</h3>
+<p>Augmentez votre visibilité et votre crédibilité.</p>
+</div>
+
+<div class="card">
+<h3>Création de site web</h3>
+<p>Sites professionnels conçus pour convertir les visiteurs en clients.</p>
+</div>
+
+<div class="card">
+<h3>Tunnel de vente</h3>
+<p>Système automatisé pour générer des ventes.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 NovaReach Agency — Tous droits réservés</p>
+
+</footer>
+
+</body>
+</html>
